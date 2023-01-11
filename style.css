@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1450px;
+}
+header {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+header h1 {
+    margin-bottom: 30px;
+    font-size: 45px;
+    width: 700px;
+}
+header p {
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #AFB1B3;
+    width: 700px;
+}
+header .buttons {
+    display: flex;
+    width: 470px;
+    justify-content: space-between;
+}
+header .buttons a button {
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+}
+header .buttons a  .ios {
+    background-color: #26BBA5;
+    color: white;
+}
+header .buttons a  .mac {
+    background-color: #6174FF;
+    color: white;
+}
+
+section .part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .part h2 {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-size: 34px;
+
+}
+section .part .p-h2 {
+    margin-bottom: 50px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #AFB1B3;
+    width: 700px;
+    text-align: center;
+}
+section .part1 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .part1 .content  img {
+    width: 720px;
+    position: relative;
+    right: 25px;
+}
+section .part1 .content div {
+    width: 730px;
+    padding-left: 100px;
+}
+section .part1 .content div h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+section .part1 .content div p {
+    width: 350px;
+    font-size: 17px;
+    color: #AFB1B3;
+    line-height: 30px;
+}
+section .part1 .content div .pp {
+    margin-bottom: 70px;
+}
+section .part3 .steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 170px;
+}
+section .part3 .steps div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+    text-align: center;
+    gap: 35px;
+    margin-bottom: 170px;
+}
+section .part3 .imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1010px;
+
+}
+section .part4 .buttons a button {
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+
+}
+section .part4 .buttons a  .ios {
+    background-color: #26BBA5;
+    color: white;
+
+}
+section .part4 .buttons a  .mac {
+    background-color: #6174FF;
+    color: white;
+}
+
+section .part4 .buttons {
+    margin-bottom: 150px;
+}
+
+footer {
+    height: 150px;
+    background-color: #f5f6f8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 170px;
+}
+footer img {
+    width: 60px;
+    height: 60px;
+    margin-right: 120px;
+}
+
+footer .links {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+footer .links .link a {
+
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #595D5F;
+    
+}
+footer .links .link {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+footer .links .link .a1 {
+    margin-bottom: 25px;
+}
+footer .social-icons i {
+    margin-right: 20px;
+}
+
+
+
+
+
+@media (max-width:376px) {
+
+    body {
+        width: 375px;
+    }
+    .container {
+        width: 375px;
+    } 
+    header h1 {
+        width: 300px;
+        width: 300px;
+        font-size: 30px;
+        text-align: center;
+    }
+    header p {
+        width: 302px;
+        font-size: 15px;
+    }
+    header .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        gap: 25px;
+    }
+    header .buttons a button {
+        width: 300px;
+    }
+    section .part h2 {
+        width: 240px;
+       font-size: 27px;
+       text-align: center;
+
+    }
+    section .part .p-h2 {
+        width: 302px;
+        font-size: 15px;
+    }
+    section .part1 .content {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    section .part1 .content img {
+        width: 302px;
+        position: relative;
+        right: 0;
+        margin-bottom: 70px;
+    }
+    section .part1 .content div {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    section .part1 .content div h3 {
+        width: 185px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    section .part1 .content div p {
+        width: 302px;
+        text-align: center;
+}
+section .part2 img {
+    width: 302px;
+}
+section .part3 .steps {
+    flex-direction: column;
+    width: 375px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+section .part3 .steps div {
+    gap: 0;
+    margin-left: auto;
+    margin-bottom: 55px ;
+}
+
+section .part3 .steps div h4 {
+    font-size: 20px;
+    width: 185px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section .part3 .steps div p {
+
+    width: 302px;
+    color:#AFB1B3;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    
+
+}
+section .part3 .steps div img {
+    margin-bottom: 40px;
+}
+section .part3 .imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    width: 375px;
+}
+
+
+section .part4 .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    gap: 25px;
+}
+section .part4 .buttons a button {
+    width: 300px;
+
+    
+}
+footer {
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+}
+footer img {
+    margin: 70px 0;
+}
+footer .links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+footer .links .link {
+    margin: 0;
+}
+footer .links .link a {
+    margin: 25px;
+    font-size: 20px;
+}
+footer .social-icons {
+
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    /* margin-top: 30px; */
+
+}
+footer .social-icons i {
+    font-size: 20px;
+    margin-right: 0;
+    
+
+}
+}
